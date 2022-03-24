@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+  data-testid="App"
+>
+  <svg
+    className="menu"
+    color="white"
+    fill="currentColor"
+    height="1em"
+    onClick={[Function]}
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
+    />
+  </svg>
+  <div>
+    <div
+      className="sidebar"
+      data-testid="sidebar"
+    >
+      <span
+        className="title"
+      >
+        Jared 
+        <br />
+         Cortez
+      </span>
+      <a
+        className="links"
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="link-text"
+        >
+          illustrations
+        </div>
+      </a>
+      <a
+        className="links"
+        href="/contact"
+        onClick={[Function]}
+      >
+        <div
+          className="link-text"
+        >
+          contact
+        </div>
+      </a>
+      <a
+        className="links"
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="link-text"
+        >
+          instagram
+        </div>
+      </a>
+      <a
+        className="links"
+        href="/about"
+        onClick={[Function]}
+      >
+        <div
+          className="link-text"
+        >
+          about
+        </div>
+      </a>
+      <div
+        className="footer"
+      >
+        <span
+          className="footer-text"
+        >
+          All images copyright ©
+        </span>
+        <span
+          className="footer-text"
+        >
+          Jared Cortez, 2022
+        </span>
+        <span
+          className="footer-text"
+        >
+          All rights reserved
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="gallery"
+    data-testid="gallery"
+  >
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="done_crying"
+        className="piece"
+        src="done_crying.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="3am_vibes"
+        className="piece"
+        src="3am_vibes.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="kamn"
+        className="piece"
+        src="kamn.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="colours"
+        className="piece"
+        src="colours.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="mental_torture"
+        className="piece"
+        src="mental_torture.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="hands_down"
+        className="piece"
+        src="hands_down.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="i_hope"
+        className="piece"
+        src="i_hope_to_be_around.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+    <div
+      className="piece-container"
+    >
+      <img
+        alt="griselda"
+        className="piece"
+        src="griselda.png"
+      />
+      <div
+        className="caption"
+      >
+        <h1>
+          (done) crying
+        </h1>
+        <p>
+          reflection of anxiety in someone
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

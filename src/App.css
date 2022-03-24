@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 30px;
+    z-index: 11;
+  }  
+}

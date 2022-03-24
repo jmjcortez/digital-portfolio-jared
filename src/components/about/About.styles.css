@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+.about-container .photo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.about-text-container {
+  width: 500px;
+}
+
+@media (max-width: 700px) {
+  .about-text-container {
+    width: 90%;
+  }
+}
