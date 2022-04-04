@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
 
 import './Illustrations.styles.css';
 
@@ -12,6 +13,23 @@ import iHope from '../../assets/images/i_hope_to_be_around.png';
 import griselda from '../../assets/images/griselda.png';
 
 const Illustrations = () => {
+
+  const fetchArtworks = async () => {
+    try {
+      const findArtworks = await axios.get('http://localhost:8000/api/artworks');
+      console.log(findArtworks);
+      console.log('sasakalin kita ng burat');
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  const [artworks, setArtworks] = useState([]);
+
+  useEffect(() =>  {
+    fetchArtworks();
+  }, [])
+
   return (
     <div className="gallery" data-testid='gallery'>
       <div className="piece-container">
